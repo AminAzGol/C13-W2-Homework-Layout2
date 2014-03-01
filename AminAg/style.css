@@ -1,10 +1,14 @@
+body {
+  background-color: #F5F4F2;
+}
+
 .container {
   width: 950px;
   margin: 0 auto;
+
 }
 .row{
   *zoom:1;
-  border: 1px dashed green;
 }
 .row:before,
 .row:after{
@@ -40,7 +44,7 @@ menu.main a {
   color: #515151;
   float: left; font-family:"ColaborateThinRegular",Arial,Helvetica,"sans-serif";
   font-weight: normal;
-  padding: 0 100px 0 0;
+ 
 }
 
 .toponvar h2 {
@@ -68,17 +72,24 @@ menu.main a {
   float: left;
 }
 
+.khvasat,.bottenrow,.botterow {
+  border-top: 1px dashed black;
+}
+
 .khvasat div {
   float: left;
   width: 300px;
+  padding: 5px;
 }
 
 .khvasat img {
   float: left; 
 }
 
-.boteerow div {
+.botterow div {
   width: 220px;
+  float: left;
+
 }
 
 .bottinvar ul a {
